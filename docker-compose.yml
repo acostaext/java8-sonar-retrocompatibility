@@ -2,7 +2,7 @@ version: "3"
 
 services:
   sonarqube:
-    image: 	sonarqube:9.7.0-community
+    image: sonarqube:9.7.0-community
     expose:
       - 9000
     ports:
